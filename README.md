@@ -69,7 +69,7 @@ You only need to include the modules you are actually using.
 
 All Tranquility modules are built for both Scala 2.10 and 2.11, except for the Samza module, which is only built for
 Scala 2.10. If you're using Scala for your own code, you should choose the Tranquility build that matches your version
-of Scala. Otherwise, Scala 2.11 is recommended.
+of Scala. Otherwise, Scala 2.11 is recommended. Kafka module needs Java 1.8 to be compiled hence please check the java version of the system.
 
 This version is built to work with Druid 0.7.x and 0.8.x. If you are using Druid 0.6.x, you may want to use Tranquility
 v0.3.2, which is the most recent version built for use with Druid 0.6.x.
